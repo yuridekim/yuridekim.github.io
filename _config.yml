@@ -14,7 +14,7 @@ lang: en
 
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: Asia/Shanghai
+timezone: Asia/Seoul
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
@@ -24,7 +24,7 @@ title: YurideKim                          # the main title
 tagline: Welcome :)   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  Senior @ Korea University / SAP Labs Korea
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
@@ -38,15 +38,15 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com             # change to your email address
+  name: Yuri Kim
+  email: cerisehill@korea.ac.kr             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/username       # change to your github homepage
+    #- https://twitter.com/username      # change to your twitter homepage
+    - https://github.com/yuridekim       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://www.linkedin.com/in/yuri-kim-kr/
 
 google_site_verification:               # fill in to your verification string
 
@@ -78,10 +78,10 @@ theme_mode:   # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: 'https://raw.githubusercontent.com/cotes2020/chirpy-images/main'
+img_cdn: 'https://raw.githubusercontent.com/yuridekim/yuridekim.github.io/main'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/commons/avatar.jpg'
+avatar: '/assets/img/profile.jpg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
