@@ -17,7 +17,8 @@ clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make: *** [rubyeventmachine.bundle] Error 1
 ```
 ![eventmachine](/assets/img/posts/eventmachine.jpeg)
-Error during bundle
+Error during bundle.
+
 This needs help in locating the ssl path.
 
 Solved by
