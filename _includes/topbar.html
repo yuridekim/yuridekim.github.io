@@ -33,8 +33,8 @@
 
         {% elsif page.layout == 'category' or page.layout == 'tag' %}
           <span>
-            <a href="{{ item | relative_url }}">
-              {{ site.data.locales[site.lang].tabs[item] | default: page.title }}
+            <a href="{{ '/posts_list' | relative_url }}">
+              {{ site.data.locales[site.lang].tabs['posts_list'] | default: page.title }}
             </a>
           </span>
         {% endif %}
@@ -48,7 +48,7 @@
     <i id="sidebar-trigger" class="fas fa-bars fa-fw"></i>
 
     <div id="topbar-title">
-      {% if page.layout == 'home' %}
+      {% if page.layout == 'posts_list' %}
         {{- site.data.locales[site.lang].title | default: site.title -}}
       {% elsif page.collection == 'tabs' or page.layout == 'page' %}
         {%- capture tab_key -%}{{ page.url | split: '/' }}{%- endcapture -%}

@@ -30,23 +30,25 @@
 
   <ul class="w-100">
 
-    <!-- home -->
-    <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
-      <a href="{{ '/' | relative_url }}" class="nav-link">
-        <i class="fa-fw fas fa-home ml-xl-3 mr-xl-3 unloaded"></i>
-        <span>{{ site.data.locales[site.lang].tabs.home | upcase }}</span>
-      </a>
-    </li>
-    <!-- the real tabs -->
+    <!-- the tabs -->
     {% for tab in site.tabs %}
-    <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
-      <a href="{{ tab.url | relative_url }}" class="nav-link">
-        <i class="fa-fw {{ tab.icon }} ml-xl-3 mr-xl-3 unloaded"></i>
-        {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
+      {% if tab.title != "Postlist" %}
+        <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
+          <a href="{{ tab.url | relative_url }}" class="nav-link">
+            <i class="fa-fw {{ tab.icon }} ml-xl-3 mr-xl-3 unloaded"></i>
+            {% capture tab_name %}{{ tab.title | downcase }}{% endcapture %}
 
-        <span>{{ site.data.locales[site.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
-      </a>
-    </li> <!-- .nav-item -->
+            <span>{{ site.data.locales[site.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
+          </a>
+        </li> <!-- .nav-item -->
+      {% else %}
+        <li class="nav-item{% if page.layout == 'posts_list' %}{{ " active" }}{% endif %}">
+          <a href="{{ '/posts_list/' | relative_url }}" class="nav-link">
+            <i class="fa-fw fas fa-stream ml-xl-3 mr-xl-3 unloaded"></i>
+            <span>{{ site.data.locales[site.lang].tabs.posts_list | upcase }}</span>
+          </a>
+        </li>
+      {% endif %}
     {% endfor %}
 
   </ul> <!-- ul.nav.flex-column -->

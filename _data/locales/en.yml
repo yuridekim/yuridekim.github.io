@@ -12,6 +12,7 @@ tabs:
   # format: <filename_without_extension>: <value>
   home: Home
   categories: Categories
+  posts_list: Posts
   tags: Tags
   archives: Archives
   about: About

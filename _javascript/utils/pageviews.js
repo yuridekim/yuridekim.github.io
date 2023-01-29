@@ -171,7 +171,7 @@ function displayPageviews(data) {
     let hasInit = getInitStatus();
     const rows = data.rows; /* could be undefined */
 
-    if ($("#post-list").length > 0) { /* the Home page */
+    if ($("#post-list").length > 0) { /* the posts_list page */
         $(".post-preview").each(function () {
             const path = $(this).find("a").attr("href");
             tacklePV(rows, path, $(this).find(".pageviews"), hasInit);

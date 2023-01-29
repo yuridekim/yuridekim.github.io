@@ -7,7 +7,7 @@ $(function () {
     const $pageTitle = $(titleSelector);
     const $topbarTitle = $("#topbar-title");
 
-    if ($pageTitle.length === 0 /* on Home page */
+    if ($pageTitle.length === 0 /* on posts_list page */
         || $pageTitle.hasClass("dynamic-title")
         || $topbarTitle.is(":hidden")) {/* not in mobile views */
         return;
