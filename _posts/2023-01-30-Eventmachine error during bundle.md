@@ -16,7 +16,7 @@ ld: symbol(s) not found for architecture arm64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 make: *** [rubyeventmachine.bundle] Error 1
 ```
-![eventmachine](assets/img/posts/eventmachine.jpeg)
+![eventmachine](/assets/img/profile.jpg)
 Error during bundle
 This needs help in locating the ssl path.
 
@@ -24,5 +24,5 @@ Solved by
 ```
 arch -arm64 gem install eventmachine -v '1.2.7' -- --with-openssl-dir=$(brew --prefix openssl)
 ```
-
-![eventmachine_solved](assets/img/posts/eventmachine_solved.jpeg)
+For further [reference](https://github.com/eventmachine/eventmachine/issues/932)
+![eventmachine_solved](/assets/img/posts/eventmachine_solved.jpeg)
