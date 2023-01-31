@@ -19,12 +19,14 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: YurideKim                          # the main title
+title: Yuri Kim                          # the main title
 
 tagline: Senior with a dual degree in Stats & CS @ Korea University   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Welcome :)
+
+website_title: Yuri Kim
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: ''
@@ -54,7 +56,7 @@ google_site_verification:               # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id:                 # fill in your Google Analytics ID
+  id: G-4MP6P27NM3    # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
