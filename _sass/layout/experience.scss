@@ -1,0 +1,122 @@
+/*
+  Style for experience timeline
+*/
+$text-start-folding-width: 620px;
+
+#experience {
+  letter-spacing: 0.03rem;
+
+  $timeline-width: 4px;
+
+  %timeline {
+    content: "";
+    width: $timeline-width;
+    position: relative;
+    float: left;
+    background-color: var(--timeline-color);
+  }
+
+  .year {
+    height: 3.5rem;
+    font-size: 1.5rem;
+    position: relative;
+    left: 2px;
+    margin-left: -$timeline-width;
+  }
+
+  ul {
+    li {
+      font-size: 1.1rem;
+
+      @media only screen and (min-width: $text-start-folding-width) {
+        height: 3rem;
+      }
+
+      @media only screen and (max-width: $text-start-folding-width) {
+        height: 8rem;
+      }
+
+      &:nth-child(odd) {
+        background-color: var(--main-bg, #ffffff);
+        background-image: linear-gradient(to left, #ffffff, #fbfbfb, #fbfbfb, #fbfbfb, #ffffff);
+      }
+
+      &::before {
+        @extend %timeline;        
+        @media only screen and (min-width: $text-start-folding-width) {
+          left: 114px;
+          top: 1.7rem;
+          height: 3rem;
+        }
+  
+        @media only screen and (max-width: $text-start-folding-width) {
+          left: 113px;
+          top: 3.8rem;
+          height: 8rem;
+        }
+      }
+    }
+    &:last-child li:last-child::before {
+      height: 0;
+    }
+
+    // Line of timeline
+    &::before {
+      @extend %timeline;
+
+      @media only screen and (min-width: $text-start-folding-width) {
+        top: 2.3rem;
+      }
+
+      @media only screen and (max-width: $text-start-folding-width) {
+        top: 4.2rem;
+      }
+    }
+
+    .flex {
+      display: flex;
+      align-items: center;
+
+      .flex-text {
+        margin-left: 3rem;
+      }
+    }
+
+    /* The dot of timeline */
+    .flex-time::after {
+      content: "";
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+      background-color: var(--timeline-node-bg);
+      box-shadow: 0 0 3px 0 #c2c6cc;
+      z-index: 1;
+      display: block;
+      position: relative;
+      top: -1rem;
+      left: 108px;
+    }
+  } /* #archives ul */
+
+  .date {
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    right: 0.5rem;
+
+    &.day {
+      font-size: 85%;
+      font-family: Lato, sans-serif;
+    }
+  }
+
+  a {
+    /* experience title in timeline */
+    // margin-left: 2.5rem;
+    position: relative;
+
+    &:hover {
+      border-bottom: none;
+    }
+  }
+}
