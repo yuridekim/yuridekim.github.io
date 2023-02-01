@@ -8,8 +8,14 @@ permalink: "/"
 > Hey there! My blog is still under construction.
 {: .prompt-tip }
 
+<p>
+        <img src='{{ "/assets/img/images/about.jpeg" | relative_url }}' style="border-radius: 10px">
+</p>
+
 Hey there! I am a student at Korea University.
 I hold a degree in **Statistics**, **Computer Science**. 
+
+[[CV](/assets/files/Yuri_Kim_CV.pdf)] (last updated: Jan 2023)
 
 Education
 ======
