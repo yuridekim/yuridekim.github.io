@@ -15,8 +15,6 @@ permalink: "/"
 I am a student at Korea University.
 I hold a degree in **Statistics** and **Computer Science**. 
 
-[[CV](/assets/files/Yuri_Kim_CV.pdf)] (last updated: Jan 2023)
-
 Education
 ======
 * **B.S.** in , **Korea University**
