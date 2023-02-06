@@ -45,15 +45,14 @@
 }
 
 .about-name>a, .about-link>a {
+    color: var(--text-color);
     text-align: center;
     text-decoration-color: var(--global--color-secondary);
     background-position: 0 1.22em;
     background-repeat: repeat-x;
     background-size: 8px 1.5px;
     border-bottom: none !important;
-    color: #000;
     text-decoration: none;
-    text-shadow: 1px 0px var(--global--color-background),-1px 0px var(--global--color-background),-2px 0px var(--global--color-background),2px 0px var(--global--color-background),-3px 0px var(--global--color-background),3px 0px var(--global--color-background),-4px 0px var(--global--color-background),4px 0px var(--global--color-background),-5px 0px var(--global--color-background),5px 0px var(--global--color-background);
     transition: background-size .1s ease-out;
 }
 
