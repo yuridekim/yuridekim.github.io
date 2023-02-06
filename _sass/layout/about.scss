@@ -1,0 +1,130 @@
+:root {
+    --global--color-secondary: #3c8067;
+    --global--color-primary-hover: var(--global--color-secondary);
+    --branding--title--font-weight: 700;
+    --global--color-background: #fff;
+    --branding--title--font-size: calc(1.25*var(--heading--font-size-h1));
+    --heading--font-size-h1: var(--global--font-size-xxxl);
+    --global--font-size-xxxl: 48px;
+    --global--font-size-xxl: 32px;
+    --global--font-size-regular: 18px;
+    --branding--title--font-size-mobile: var(--heading--font-size-h1);
+    --global--spacing-vertical: 30px;
+    --global--spacing-horizontal: 25px;
+    --responsive--alignwide-width: min(calc(100vw - 2*var(--global--spacing-horizontal)),750px);
+    --entry-content--font-family: var(--heading--font-size-h2);
+    --heading--font-size-h2: var(--global--font-size-xxl);
+    --global--font-secondary: var(--font-base,'Fira Sans',Helvetica,Arial,sans-serif);
+    --global--font-primary: var(--font-headings,'Playfair Display',Georgia,Times,serif);
+    --global--font-size-base: 0.9em;
+  }
+
+.site-branding{
+    padding-top: calc(var(--global--spacing-vertical));
+    padding-bottom: calc(3*var(--global--spacing-vertical));
+}
+
+.about-body, .about-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 350;
+}
+
+
+.about-name>a{
+    @media only screen and (min-width: $text-start-folding-width) {
+        font-size: var(--branding--title--font-size);
+        }
+    @media only screen and (max-width: $text-start-folding-width) {
+        font-size: var(--branding--title--font-size-mobile);
+          }
+    letter-spacing: normal;
+    line-height: var(--global--line-height-heading);
+    font-weight: var(--branding--title--font-weight);
+}
+
+.about-name>a, .about-link>a {
+    text-align: center;
+    text-decoration-color: var(--global--color-secondary);
+    background-position: 0 1.22em;
+    background-repeat: repeat-x;
+    background-size: 8px 1.5px;
+    border-bottom: none !important;
+    color: #000;
+    text-decoration: none;
+    text-shadow: 1px 0px var(--global--color-background),-1px 0px var(--global--color-background),-2px 0px var(--global--color-background),2px 0px var(--global--color-background),-3px 0px var(--global--color-background),3px 0px var(--global--color-background),-4px 0px var(--global--color-background),4px 0px var(--global--color-background),-5px 0px var(--global--color-background),5px 0px var(--global--color-background);
+    transition: background-size .1s ease-out;
+}
+
+.about-link>a{
+    text-decoration-line: underline;
+    text-decoration-color: var(--global--color-secondary);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.3em;
+}
+
+.about-name a:hover, .about-name a:focus, .about-link a:hover, .about-link a:focus {
+    color: var(--global--color-secondary) !important;
+    background-size: 8px 0px;
+}
+
+.about-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: $text-start-folding-width) {
+.wp-block-media-text, .wp-block-media-text__content {
+    padding-top: var(--global--spacing-vertical);
+    padding-bottom: var(--global--spacing-vertical);
+    padding: var(--global--spacing-vertical);
+}
+}
+
+.media-block{
+    margin-bottom: var(--global--spacing-vertical);
+    @media only screen and (min-width: $text-start-folding-width) {
+        font-size: var(--global--font-size-regular);
+        }
+    @media only screen and (max-width: $text-start-folding-width) {
+        font-size: var(--global--font-size-base);
+          }
+}
+
+.wp-block-media-text, .wp-block-media-text__media {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+}
+
+.wp-block-media-text, .wp-block-media-text__content {
+    direction: ltr;
+    grid-column: 2;
+    grid-row: 1;
+    padding: 0 5%;
+    word-break: break-word;
+}
+
+.media-block {
+    box-sizing: border-box;
+    direction: ltr;
+    @media (min-width: 600px){
+        display: grid;
+        grid-template-columns: 50% 1fr;
+        grid-template-rows: auto;
+    }
+}
+
+.alignwide {
+    max-width: var(--responsive--alignwide-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 600px){
+.mobile-stack{
+    grid-template-columns: 100%!important;
+}
+}
