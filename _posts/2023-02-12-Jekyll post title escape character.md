@@ -8,10 +8,10 @@ tags : [jekyll]
 When posting in your blog powered by jekyll, you input your title at the top of you readme file.
 But the formatting doesn't allow you to include colons and your blog will render a crash.
 
-![title_escape](/assets/img/posts/title_escape.jpeg)
+![title_escape](/assets/img/posts/title_escape.png)
 
 Escape characters don't work as well in this case.
 
 ### Solution:
 A simple solution to this problem: wrap your string with quotes. 
-![wrap_title](/assets/img/posts/wrap_title.jpeg)
+![wrap_title](/assets/img/posts/wrap_title.png)
