@@ -12,6 +12,6 @@ But the formatting doesn't allow you to include colons and your blog will render
 
 Escape characters don't work as well in this case.
 
-### Solution:
+## Solution
 A simple solution to this problem: wrap your string with quotes. 
 ![wrap_title](/assets/img/posts/wrap_title.png)
