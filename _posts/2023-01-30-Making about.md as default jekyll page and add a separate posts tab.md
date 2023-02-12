@@ -2,7 +2,7 @@
 title : Making about.md as default jekyll page and add a separate posts tab
 date : 2023-01-30 03:52:00 +0900
 categories : [jekyll]
-tags : [jekyll] #소문자만 가능
+tags : [jekyll, html, css] #소문자만 가능
 ---
 
 Follow the steps in
