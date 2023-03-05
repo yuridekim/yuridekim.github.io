@@ -47,7 +47,8 @@
 
 #page-category,
 #page-tag,
-#access-lastmod {
+#access-lastmod,
+#access-pinned {
   a:hover {
     @extend %link-hover;
 

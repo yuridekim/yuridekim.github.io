@@ -3,6 +3,7 @@ title : Torch negative dimension
 date : 2023-02-18 15:14:00 +0900
 categories : [AI]
 tags : [pytorch, AI, tools] #소문자만 가능
+pinned : 0
 ---
 
 ```

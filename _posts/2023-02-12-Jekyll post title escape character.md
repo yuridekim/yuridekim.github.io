@@ -3,6 +3,7 @@ title : Jekyll post title escape character
 date : 2023-02-12 01:08:00 +0900
 categories : [jekyll]
 tags : [jekyll] #소문자만 가능
+pinned : 0
 ---
 
 When posting in your blog powered by jekyll, you input your title at the top of you readme file.

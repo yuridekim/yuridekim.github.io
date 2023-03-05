@@ -24,6 +24,7 @@ search:
   no_results: Oops! No results found.
 
 panel:
+  pinlist: Pinned Posts
   lastmod: Recently Updated
   trending_tags: Trending Tags
   toc: Contents

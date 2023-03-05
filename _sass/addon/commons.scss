@@ -223,7 +223,7 @@ img[data-src] {
   top: 2rem;
   transition: top 0.2s ease-in-out;
   margin-top: 3rem;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 
   &:only-child {
     position: -webkit-sticky;
@@ -235,7 +235,7 @@ img[data-src] {
     border-left: 1px solid var(--main-border-color);
 
     &:not(:last-child) {
-      margin-bottom: 4rem;
+      margin-bottom: 2rem;
     }
   }
 
@@ -273,7 +273,7 @@ img[data-src] {
   }
 }
 
-#access-lastmod {
+#access-lastmod, #access-pinned {
   li {
     height: 1.8rem;
     overflow: hidden;

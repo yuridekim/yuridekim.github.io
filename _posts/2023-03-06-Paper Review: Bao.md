@@ -3,6 +3,7 @@ title : "[Paper Review] Bao: Learning to Steer Query Optimizers"
 date : 2023-03-06 02:08:00 +0900
 categories : [AI]
 tags : [Reinforcement Learning, MLDB, AI, database, PaperReview] #소문자만 가능
+pinned : 2
 ---
 
 ## Introduction

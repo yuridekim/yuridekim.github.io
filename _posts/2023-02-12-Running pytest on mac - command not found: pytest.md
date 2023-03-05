@@ -3,6 +3,7 @@ title : "Running pytest on mac - command not found: pytest"
 date : 2023-02-12 00:56:00 +0900
 categories : [tools]
 tags : [pytest, python] #소문자만 가능
+pinned : 0
 ---
 
 Installing pytest with pip will return the following error.

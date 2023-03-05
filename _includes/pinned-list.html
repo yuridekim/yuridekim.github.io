@@ -1,21 +1,21 @@
 {% comment %}
-  Get the last 5 posts from lastmod list.
+  Get the pinned posts.
 {% endcomment %}
 
-{% assign MAX_SIZE = 3 %}
+{% assign MAX_SIZE = 5 %}
 
 {% assign all_list = "" | split: "" %}
 
 {% for post in site.posts %}
-  {% if post.date and post.pinned == 0 %}
+  {% if post.pinned and post.pinned > 0 %}
     {% capture elem %}
-      {{- post.date | date: "%Y%m%d%H%M%S" -}}::{{- forloop.index0 -}}
+      {{- post.pinned -}}::{{- forloop.index0 -}}
     {% endcapture %}
     {% assign all_list = all_list | push: elem %}
   {% endif %}
 {% endfor %}
 
-{% assign all_list = all_list | sort | reverse %}
+{% assign all_list = all_list | sort %}
 
 {% assign update_list = "" | split: "" %}
 
@@ -25,8 +25,8 @@
 
 {% if update_list.size > 0 %}
 
-  <div id="access-lastmod" class="post">
-    <div class="panel-heading">{{- site.data.locales[site.lang].panel.lastmod -}}</div>
+  <div id="access-pinned" class="post">
+    <div class="panel-heading">{{- site.data.locales[site.lang].panel.pinlist -}}</div>
     <ul class="post-content pl-0 pb-1 ml-1 mt-2">
       {% for item in update_list %}
         {% assign index = item | split: "::" | last | plus: 0 %}
