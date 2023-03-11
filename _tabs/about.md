@@ -55,6 +55,9 @@ permalink: "/"
         </li>
     </ul>
 </div>
+<div class = "Hobbies">
+
+</div>
 </div>
 
 
