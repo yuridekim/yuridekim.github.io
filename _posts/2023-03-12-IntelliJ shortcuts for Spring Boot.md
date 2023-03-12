@@ -2,7 +2,7 @@
 title : IntelliJ shortcuts for Spring Boot
 date : 2023-03-12 01:38:00 +0900
 categories : [tools]
-tags : [backend, springboot, java, intellij, tools] #소문자만 가능
+tags : [backend, springboot, spring, java, intellij, tools] #소문자만 가능
 pinned : 0
 ---
 
