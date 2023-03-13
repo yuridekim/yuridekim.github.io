@@ -3,7 +3,7 @@ title : "[Paper Review] Machine Learning for Query Optimization"
 date : 2023-03-13 23::33 +0900
 categories : [AI]
 tags : [Reinforcement Learning, MLDB, AI, database, PaperReview] #소문자만 가능
-pinned : 0
+pinned : 3
 ---
 
 # Introduction
@@ -17,7 +17,7 @@ The cost model assumes and follow the general principle that "fewer tuples lead 
 
 This is of course, independent of physical enumeration plans and instead uses cardinality estimates.
 
-![Balsa Cost Model](/assets/img/posts/basla_cost_model.png)
+![Balsa Cost Model](/assets/img/posts/balsa_cost_model.png)
 
 While this may cause issues of inaccuracy, it provides the simplicity and efficiency to pave way to move onto the next step of fine-tuning.
 
