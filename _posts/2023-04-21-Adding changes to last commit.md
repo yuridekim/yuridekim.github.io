@@ -1,19 +1,25 @@
 ---
-title : Adding changes to last commit
-date : 2023-04-21 23:52:00 +0900
-categories : [git]
-tags : [git] #소문자만 가능
+title : '[Leetcode] 1. Two Sum Array'
+date : 2023-05-26 23:01:00 +0900
+categories : [algorithm]
+tags : [algorithm, ps, leetcode] #소문자만 가능
 pinned : 0
 ---
+```
+class Solution(object):
+    def twoSum(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+        buff={}
+        for i, n in enumerate(nums):
+            d=target-n
+            if n in buff:
+                return [buff[n],i]
+            else:
+                buff[d]=i
+```
 
-To include new changes into the last commit, not to make a separate commit and rewrite history.
-
-```
-git add -u
-git commit --amend --no-edit
-```
-No edit for not changing the message.
-
-```
-git push --force
-```
+Time complexity is O(n) with space complexity O(n).
