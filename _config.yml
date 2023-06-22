@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 
 title: Yuri Kim                          # the main title
 
-tagline: Senior with a dual degree in Stats & CS @ Korea University   # it will display as the sub-title
+tagline: Stats & CS @ Korea University | Currently at SAP Labs Korea   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Welcome :)

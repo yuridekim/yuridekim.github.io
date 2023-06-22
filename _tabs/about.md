@@ -20,7 +20,7 @@ permalink: "/"
     <p class="about-link">I (finally!) graduated and hold a degree in Statistics and Computer Science at
     <mark style="background-color:rgba(0,0,0,0)"> </mark>
     <a href="https://www.korea.ac.kr/"><strong>Korea University</strong></a>. </p>
-    <p>Optimization in Machine Learning&nbsp;·&nbsp;&nbsp; NLP&nbsp;&nbsp;·&nbsp; &nbsp;Computer Vision</p>
+    <p>ML for Systems&nbsp;·&nbsp;&nbsp; Cloud Computing&nbsp;&nbsp;·&nbsp; &nbsp;Databases</p>
 </div>
 </div>
 
@@ -37,11 +37,11 @@ permalink: "/"
         </li>
         <li class="flex">
             <div class="flex-time">
-                <span class="date day">2022 ~ 2023</span>
+                <span class="date day">2022 ~  2023  </span>
             </div>
             <div class="flex-text">
                 <a href="https://www.sap.com/">SAP</a>
-                <span> DL & SW Working Student</span>
+                <span> Engineer @ SAP Labs Korea</span>
             </div>
         </li>
         <li class="flex">
