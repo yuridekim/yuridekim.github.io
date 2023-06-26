@@ -12,11 +12,11 @@
     "selector-not-notation": "simple",
     "color-hex-length": "long",
     "declaration-block-single-line-max-declarations": 3,
-    "font-family-no-missing-generic-family-keyword": [
-      true,
-      {
-        "ignoreFontFamilies": ["Font Awesome 5 Free"]
-      }
-    ]
+    "scss/operator-no-newline-after": null,
+    "rule-empty-line-before": [
+      "always",
+      { "ignore": ["after-comment", "first-nested", "inside-block"] }
+    ],
+    "value-keyword-case": ["lower", { "ignoreProperties": ["/^\\$/"] }]
   }
 }

@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-chirpy"
-  spec.version       = "5.3.1"
+  spec.version       = "6.0.1"
   spec.authors       = ["Cotes Chung"]
   spec.email         = ["cotes.chung@gmail.com"]
 
-  spec.summary       = "Chirpy is a minimal, sidebar, responsive web design Jekyll theme that focuses on text presentation."
+  spec.summary       = "A minimal, responsive and feature-rich Jekyll theme for technical writing."
   spec.homepage      = "https://github.com/cotes2020/jekyll-theme-chirpy"
   spec.license       = "MIT"
 
@@ -23,13 +23,14 @@ Gem::Specification.new do |spec|
     "plugin_type"       => "theme"
   }
 
-  spec.required_ruby_version = ">= 2.5"
+  spec.required_ruby_version = ">= 2.6"
 
-  spec.add_runtime_dependency "jekyll", "~> 4.1"
+  spec.add_runtime_dependency "jekyll", "~> 4.3"
   spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
   spec.add_runtime_dependency "jekyll-redirect-from", "~> 0.16"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.7"
   spec.add_runtime_dependency "jekyll-archives", "~> 2.2"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.4"
+  spec.add_runtime_dependency "jekyll-include-cache", "~> 0.2"
 
 end

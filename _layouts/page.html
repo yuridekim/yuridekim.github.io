@@ -61,12 +61,12 @@ layout: default
 
 <!-- tail -->
 {% if layout.tail_includes %}
-<div class="row">
-  <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 pl-3 pr-3 pr-xl-4 mt-5">
-    {% for _include in layout.tail_includes %}
-      {% assign _include_path = _include | append: '.html' %}
-      {% include {{ _include_path }} %}
-    {% endfor %}
+  <div class="row">
+    <div id="tail-wrapper" class="col-12 col-lg-11 col-xl-9 px-3 pe-xl-4 mt-5">
+      {% for _include in layout.tail_includes %}
+        {% assign _include_path = _include | append: '.html' %}
+        {% include {{ _include_path }} lang=lang %}
+      {% endfor %}
+    </div>
   </div>
-</div>
 {% endif %}
