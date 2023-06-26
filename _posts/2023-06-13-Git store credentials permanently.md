@@ -1,6 +1,6 @@
 ---
 title : Git store credentials permanently
-date : 2023-06-23 02:00:00 +0900
+date : 2023-06-13 02:00:00 +0900
 categories : [git]
 tags : [git] #소문자만 가능
 pinned : 0
