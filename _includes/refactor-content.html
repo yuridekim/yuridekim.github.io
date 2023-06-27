@@ -134,7 +134,7 @@
     {% endif %}
 
     <!-- lazy-load images <https://github.com/aFarkas/lazysizes#readme> -->
-    {% assign _left = _left %}
+    {% assign _left = _left | replace: 'src=', 'data-src=' %}
     {% if _left contains 'class=' %}
       {% assign _left = _left | replace: 'class="', 'class="lazyload '%}
     {% else %}
@@ -146,7 +146,12 @@
       {% assign _left = _left | replace: ' lqip=', ' data-lqip="true" src=' %}
     {% else %}
       {% if _width and _height %}
-        {% assign _class = _class %}
+        <!-- add SVG placehoder -->
+        {%- capture _svg -%}
+          src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 {{ _width  }} {{ _height }}'%3E%3C/svg%3E"
+        {%- endcapture -%}
+        {% assign _left =  _svg | append: ' ' | append: _left %}
+        {% assign _class = _class | append: ' shimmer' %}
       {% endif %}
     {% endif %}
 
@@ -162,15 +167,6 @@
       {% assign _right = _right | prepend: '></div' %}
 
     {% else %}
-      {% assign _left = _left | replace: 'src=', 'data-src=' %}
-      {% if _width and _height %}
-          <!-- add SVG placehoder -->
-          {%- capture _svg -%}
-            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 {{ _width  }} {{ _height }}'%3E%3C/svg%3E"
-          {%- endcapture -%}
-          {% assign _left =  _svg | append: ' ' | append: _left %}
-          {% assign _class = _class | append: ' shimmer' %}
-        {% endif %}
       <!-- make sure the `<img>` is wrapped by `<a>` -->
       {% assign _parent = _right | slice: 1, 4 %}
 
