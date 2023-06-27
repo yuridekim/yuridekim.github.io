@@ -1,7 +1,7 @@
 ---
 title : "[Paper Review] Machine Learning for Query Optimization"
 date : 2023-03-13 23::33 +0900
-categories : [AI]
+categories : [Database Systems, MLDB]
 tags : [Reinforcement Learning, MLDB, AI, database, PaperReview] #소문자만 가능
 pinned : 3
 image: 

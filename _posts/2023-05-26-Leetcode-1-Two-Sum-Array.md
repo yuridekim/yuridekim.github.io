@@ -1,7 +1,7 @@
 ---
 title : '[Leetcode] 1. Two Sum Array'
 date : 2023-05-26 23:01:00 +0900
-categories : [algorithm]
+categories : [Algorithm, Leetcode]
 tags : [algorithm, ps, leetcode] #소문자만 가능
 pinned : 0
 ---

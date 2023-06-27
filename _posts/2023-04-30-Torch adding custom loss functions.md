@@ -1,7 +1,7 @@
 ---
 title : Torch adding custom loss functions
 date : 2023-04-30 00:20:00 +0900
-categories : [ML]
+categories : [ML, Pytorch]
 tags : [ML, tools, pytorch] #소문자만 가능
 pinned : 0
 ---

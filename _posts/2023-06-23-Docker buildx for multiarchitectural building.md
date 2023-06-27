@@ -1,7 +1,7 @@
 ---
 title : Docker buildx for multiarchitectural image building
 date : 2023-06-23 02:54:00 +0900
-categories : [docker]
+categories : [Cloud Computing, Docker]
 tags : [docker, cloudcomputing, kubernetes] #소문자만 가능
 pinned : 0
 ---

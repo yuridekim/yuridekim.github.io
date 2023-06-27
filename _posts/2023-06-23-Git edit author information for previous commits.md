@@ -1,7 +1,7 @@
 ---
 title : Git edit author information for previous commits
 date : 2023-06-23 02:23:00 +0900
-categories : [git]
+categories : [Tools, Git]
 tags : [git] #소문자만 가능
 pinned : 0
 image:

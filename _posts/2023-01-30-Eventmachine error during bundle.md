@@ -1,7 +1,7 @@
 ---
 title : Eventmachine 1.2.7  error during bundle with ruby 3.0.0
 date : 2023-01-30 00:03:00 +0900
-categories : [jekyll]
+categories : [Tools, Jekyll]
 tags : [jekyll, ruby] #소문자만 가능
 pinned : 0
 ---

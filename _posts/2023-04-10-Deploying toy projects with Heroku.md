@@ -1,7 +1,7 @@
 ---
 title : Deploying SpringBoot toy projects with Heroku
 date : 2023-04-10 01:56:00 +0900
-categories : [backend]
+categories : [Development, Spring]
 tags : [backend, spring, springboot, server, heroku] #소문자만 가능
 pinned : 0
 image:

@@ -1,7 +1,7 @@
 ---
 title : Adding changes to last commit
 date : 2023-04-21 23:52:00 +0900
-categories : [git]
+categories : [Tools, Git]
 tags : [git] #소문자만 가능
 pinned : 0
 ---

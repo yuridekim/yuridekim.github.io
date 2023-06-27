@@ -1,7 +1,7 @@
 ---
 title : Jekyll post title escape character
 date : 2023-02-12 01:08:00 +0900
-categories : [jekyll]
+categories : [Tools, Jekyll]
 tags : [jekyll] #소문자만 가능
 pinned : 0
 image:

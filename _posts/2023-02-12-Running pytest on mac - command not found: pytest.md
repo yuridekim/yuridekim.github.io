@@ -1,7 +1,7 @@
 ---
 title : "Running pytest on mac - command not found: pytest"
 date : 2023-02-12 00:56:00 +0900
-categories : [tools]
+categories : [Tools, Pytest]
 tags : [pytest, python] #소문자만 가능
 pinned : 0
 ---
