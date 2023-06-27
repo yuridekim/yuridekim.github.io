@@ -4,6 +4,8 @@ date : 2023-06-23 02:23:00 +0900
 categories : [git]
 tags : [git] #소문자만 가능
 pinned : 0
+image:
+    path: /assets/img/posts/rewrite_author.png
 ---
 
 To rewrite author information such as author usernames and emails for previous commits,

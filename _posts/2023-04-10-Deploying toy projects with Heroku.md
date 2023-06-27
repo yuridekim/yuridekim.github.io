@@ -4,6 +4,8 @@ date : 2023-04-10 01:56:00 +0900
 categories : [backend]
 tags : [backend, spring, springboot, server, heroku] #소문자만 가능
 pinned : 0
+image:
+    path: /assets/img/posts/heroku_init_build.png
 ---
 ## Setup
 Specify jar source in <b>Procfile</b>.

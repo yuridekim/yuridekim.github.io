@@ -4,6 +4,8 @@ date : 2023-04-25 00:09:00 +0900
 categories : [ML]
 tags : [ML, tools, mlops] #소문자만 가능
 pinned : 0
+image:
+    path: /assets/img/posts/mlflow_ex.png
 ---
 
 # What is MLflow?
@@ -16,6 +18,8 @@ To keep track of your model versions and determine which among them are best, lo
 - Artifact: Resources that you want to store. E.g. The model itself, text files that the run produced
 - Metric: Values that change with time. E.g. training loss,
 
+![MLflow example](/assets/img/posts/mlflow_ex.png)
+
 ```python
 import mlflow
 from mlflow import log_param, log_artifact, log_metric
@@ -27,6 +31,13 @@ log_artifact("path/name/to/artifact")
 log_metric("training loss", train_loss)
 mlflow.end_run()
 ```
+
+![MLflow runs](/assets/img/posts/mlflow_runs.png)
+
+The MLflow runs will be recorded separately and are available via the UI platform.
+
+Names can be configured before trigerring the run, or even after the run is finished. This is possible via the UI platform, or by manually finding the resource files in the mlruns folder with its name id.  
+![MLflow names](/assets/img/posts/mlflow_names.png)
 
 ## Track with MLflow
 

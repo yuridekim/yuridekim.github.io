@@ -6,7 +6,7 @@ tags : [Reinforcement Learning, MLDB, AI, database, PaperReview] #소문자만 �
 pinned : 3
 image: 
     path: /assets/img/posts/balsa_behaviours.png
-pin: true
+# pin: true
 ---
 
 # Introduction
