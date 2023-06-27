@@ -11,7 +11,7 @@
 
 <!-- layout specified -->
 
-{% if page.layout == 'post' or page.layout == 'page' or page.layout == 'home' %}
+{% if page.layout == 'post' or page.layout == 'page' or page.layout == 'posts_list' %}
   {% assign urls = urls | append: ',' | append: site.data.origin[type].lazysizes.js %}
 
   {% unless page.layout == 'home' %}
