@@ -47,7 +47,7 @@
 {% if _content contains IMG_TAG %}
   {% assign _img_content = nil %}
   {% assign _img_snippets = _content | split: IMG_TAG %}
-
+  
   <!-- CDN URL -->
   {% if site.img_cdn %}
     {% if site.img_cdn contains '//' %}
@@ -158,7 +158,7 @@
     <!-- Bypass the HTML-proofer test -->
     {% assign _left = _left | append: ' data-proofer-ignore' %}
 
-    {% if page.layout == 'home' %}
+    {% if page.layout == 'posts_list' %}
       <!-- create the image wrapper -->
       {%- capture _wrapper_start -%}
         <div class="preview-img {{ _class | strip }}">

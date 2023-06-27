@@ -1,5 +1,5 @@
 import { basic, initSidebar, initTopbar } from './modules/layouts';
-import { imgLazy, imgPopup, initClipboard } from './modules/plugins';
+import { imgLazy, initClipboard } from './modules/plugins';
 
 basic();
 initSidebar();
