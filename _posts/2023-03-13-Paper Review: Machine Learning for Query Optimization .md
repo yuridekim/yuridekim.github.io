@@ -4,7 +4,8 @@ date : 2023-03-13 23::33 +0900
 categories : [AI]
 tags : [Reinforcement Learning, MLDB, AI, database, PaperReview] #소문자만 가능
 pinned : 3
-image: assets/img/posts/balsa_no_sim.png
+image: 
+    path: /assets/img/posts/balsa_behaviours.png
 pin: true
 ---
 
