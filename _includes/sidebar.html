@@ -24,15 +24,15 @@
 
   </div><!-- .profile-wrapper -->
 
-  <ul class="w-100">
+  <ul class="nav flex-column flex-grow-1 w-100 ps-0">
 
     <!-- the tabs -->
     {% for tab in site.tabs %}
       {% if tab.title != "Postlist" %}
         <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
           <a href="{{ tab.url | relative_url }}" class="nav-link">
-            <i class="fa-fw {{ tab.icon }} ml-xl-3 mr-xl-3 unloaded"></i>
-            {% capture tab_name %}{{ tab.title | downcase }}{% endcapture %}
+            <i class="fa-fw {{ tab.icon }}"></i>
+            {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
 
             <span>{{ site.data.locales[site.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
           </a>
@@ -40,7 +40,7 @@
       {% else %}
         <li class="nav-item{% if page.layout == 'posts_list' %}{{ " active" }}{% endif %}">
           <a href="{{ '/posts_list/' | relative_url }}" class="nav-link">
-            <i class="fa-fw fas fa-stream ml-xl-3 mr-xl-3 unloaded"></i>
+            <i class="fa-fw fas fa-stream ml-xl-3 mr-xl-3"></i>
             <span>{{ site.data.locales[site.lang].tabs.posts_list | upcase }}</span>
           </a>
         </li>

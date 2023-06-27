@@ -46,7 +46,7 @@
       <li class="page-item {% if i == paginator.page %} active{% endif %}">
         <a
           class="page-link btn-box-shadow"
-          href="{% if i > 1 %}{{ site.paginate_path | replace: ':num', i | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}"
+          href="{% if i > 1 %}{{ site.paginate_path | replace: ':num', i | relative_url }}{% else %}{{ '/posts_list/' | relative_url }}{% endif %}"
         >
           {{- i -}}
         </a>
