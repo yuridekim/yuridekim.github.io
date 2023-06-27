@@ -2,8 +2,8 @@
     --global--color-secondary: #3c8067;
     --global--color-primary-hover: var(--global--color-secondary);
     --branding--title--font-weight: 700;
-    --global--color-background: #fff;
-    --branding--title--font-size: calc(1.25*var(--heading--font-size-h1));
+    --global--color-background: #ffffff;
+    --branding--title--font-size: calc(1.25 * var(--heading--font-size-h1));
     --heading--font-size-h1: var(--global--font-size-xxxl);
     --global--font-size-xxxl: 48px;
     --global--font-size-xxl: 32px;
@@ -11,7 +11,7 @@
     --branding--title--font-size-mobile: var(--heading--font-size-h1);
     --global--spacing-vertical: 30px;
     --global--spacing-horizontal: 25px;
-    --responsive--alignwide-width: min(calc(100vw - 2*var(--global--spacing-horizontal)),750px);
+    --responsive--alignwide-width: min(calc(100vw - 2 * var(--global--spacing-horizontal)),750px);
     --entry-content--font-family: var(--heading--font-size-h2);
     --heading--font-size-h2: var(--global--font-size-xxl);
     --global--font-secondary: var(--font-base,'Fira Sans',Helvetica,Arial,sans-serif);
@@ -21,7 +21,7 @@
 
 .site-branding{
     padding-top: calc(var(--global--spacing-vertical));
-    padding-bottom: calc(3*var(--global--spacing-vertical));
+    padding-bottom: calc(3 * var(--global--spacing-vertical));
 }
 
 .about-body, .about-name {
@@ -87,6 +87,7 @@
     @media only screen and (min-width: $text-start-folding-width) {
         font-size: var(--global--font-size-regular);
         }
+
     @media only screen and (max-width: $text-start-folding-width) {
         font-size: var(--global--font-size-base);
           }
