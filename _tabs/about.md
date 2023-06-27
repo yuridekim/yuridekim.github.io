@@ -8,7 +8,7 @@ permalink: "/"
 <div class="entry-content">
 <div class="site-branding">
 	<p class="about-name"><a href="https://yuridekim.github.io">Yuri Kim</a></p>		
-	<p class="about-description"> Undergraduate at Korea University</p>
+	<p class="about-description"> Currently at SAP Labs Korea</p>
 </div>
 
 <div class="media-block mobile-stack alignwide" style="grid-template-columns:31% auto">
