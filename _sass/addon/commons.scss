@@ -1637,23 +1637,17 @@ $btn-mb: 0.5rem;
   color: #3c8067;
   text-decoration: none;
   transition: color 0.3s ease;
+  border-bottom: none !important;
 }
 
 .header-name a:hover {
-  color: #666;
+  color: #666666;
   border-bottom: none;
 }
 
 .header-description {
   font-size: 1.2rem;
-  color: #666;
+  color: #666666;
   font-weight: 300;
   letter-spacing: 0.5px;
-}
-
-/* Optional: add a subtle underline or border */
-.site-header {
-  border-bottom: 1px solid #eee;
-  /* or */
-  /* box-shadow: 0 2px 4px rgba(0,0,0,0.05); */
 }

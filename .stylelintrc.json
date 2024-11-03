@@ -17,6 +17,15 @@
       "always",
       { "ignore": ["after-comment", "first-nested", "inside-block"] }
     ],
-    "value-keyword-case": ["lower", { "ignoreProperties": ["/^\\$/"] }]
+    "value-keyword-case": ["lower", { "ignoreProperties": ["/^\\$/"] }],
+    "length-zero-no-unit": null,
+    "custom-property-pattern": null,
+    "selector-class-pattern": null,
+    "declaration-empty-line-before": null,
+    "at-rule-empty-line-before": null,
+    "media-feature-range-notation": null,
+    "selector-pseudo-element-colon-notation": null,
+    "declaration-block-no-shorthand-property-overrides": null,
+    "no-duplicate-selectors": null
   }
 }

@@ -20,7 +20,7 @@ permalink: "/"
     <p class="about-link"> Before coming to UCLA, I worked at SAP Labs as a software engineer in cloud & database systems.  
     For more about me: 
     <mark style="background-color:rgba(0,0,0,0)"> </mark>
-    <a href="{{ site.baseurl }}/assets/files/yuri_kim_cv.pdf"><strong>CV</strong></a>. 
+    <a href="https://github.com/yuridekim/yuridekim.github.io/blob/main/assets/files/Yuri_Kim_CV.pdf"><strong>CV</strong></a>. 
 
         <br><br>
     I post about what I find fascinating, come take a look!
