@@ -3,7 +3,7 @@ title : Understanding Karpathy's Building GPT From Scratch
 date : 2023-02-13 02:07:00 +0900
 categories : [ML, NLP]
 tags : [NLP, GPT, AI, transformers, attention, TDD] #소문자만 가능
-pinned : 1
+pinned : 4
 image:
     path: /assets/img/posts/skip_connection_1.png
 ---

@@ -1,8 +1,8 @@
 ---
 title : MLflow for managing versions and tracking ML models on cloud systems
 date : 2023-04-25 00:09:00 +0900
-categories : [ML, Cloud Computing]
-tags : [ML, tools, mlops] #소문자만 가능
+categories : [ML, Distributed Systems]
+tags : [ML, tools, mlops, cloudcomputing] #소문자만 가능
 pinned : 0
 image:
     path: /assets/img/posts/mlflow_ex.png

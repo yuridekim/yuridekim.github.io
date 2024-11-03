@@ -21,7 +21,7 @@ timezone: Asia/Seoul
 
 title: Yuri Kim                          # the main title
 
-tagline: Stats & CS @ Korea University | Currently at SAP Labs Korea   # it will display as the sub-title
+tagline: MSCS @ UCLA with a focus on large scale systems(databases & cloud)  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Welcome :)
@@ -39,7 +39,7 @@ social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Yuri Kim
-  email: cerisehill@korea.ac.kr             # change to your email address
+  email: yurikim@ucla.edu             # change to your email address
   links:
     # The first element serves as the copyright owner's link
     #- https://twitter.com/username      # change to your twitter homepage

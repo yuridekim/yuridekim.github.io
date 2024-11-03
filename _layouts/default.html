@@ -24,7 +24,9 @@ layout: compress
 
     <div id="main-wrapper" class="d-flex justify-content-center">
       <div id="main" class="container px-xxl-5">
-        {% include topbar.html lang=lang %}
+        {% if page.name != "about.md" %}
+          {% include topbar.html lang=lang %}
+        {% endif %}
         {{ content }}
         {% include_cached search-results.html lang=lang %}
       </div>

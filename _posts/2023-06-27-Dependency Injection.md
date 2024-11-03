@@ -1,7 +1,7 @@
 ---
 title : 'Go: Dependency Injection'
 date : 2023-06-27 23:52:00 +0900
-categories : [Cloud Computing, Go]
+categories : [Distributed Systems, Go]
 tags : [go, programming, TDD] #소문자만 가능
 pinned : 0
 ---

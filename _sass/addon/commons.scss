@@ -1588,3 +1588,72 @@ $btn-mb: 0.5rem;
     }
   }
 } /* min-width: 1650px */
+
+.category-link {
+    color: black;
+    text-decoration: none;
+    padding: 2px 4px;
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 1;
+    border-bottom: none !important;  /* Override the default underline */
+}
+
+.category-link::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #f0f0f0; /* Light grey background */
+    transition: width 0.3s ease;
+    z-index: -1;
+}
+
+.category-link:hover::before {
+    width: 100%;
+}
+
+/* Optional: add subtle shadow on hover */
+.category-link:hover {
+    transform: translateY(-1px);
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
+
+.site-header {
+  text-align: center;
+  padding: 0rem 0;
+  margin-bottom: 2rem;
+}
+
+.header-name {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.header-name a {
+  color: #3c8067;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.header-name a:hover {
+  color: #666;
+  border-bottom: none;
+}
+
+.header-description {
+  font-size: 1.2rem;
+  color: #666;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+/* Optional: add a subtle underline or border */
+.site-header {
+  border-bottom: 1px solid #eee;
+  /* or */
+  /* box-shadow: 0 2px 4px rgba(0,0,0,0.05); */
+}
